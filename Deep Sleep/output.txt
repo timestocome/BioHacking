@@ -1,0 +1,60 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Wed Oct 31 15:00:22 2018
+
+# http://github.com/timestocome
+# Linda MacPhee-Cobb
+
+
+"""
+
+
+runfile('/home/linda/nutrition.py', wdir='/home/linda')
+['Meal' 'Calories' 'Fat (g)' 'Saturated Fat' 'Polyunsaturated Fat'
+ 'Monounsaturated Fat' 'Cholesterol' 'Sodium (mg)' 'Potassium'
+ 'Carbohydrates (g)' 'Fiber' 'Sugar' 'Protein (g)' 'Vitamin A' 'Vitamin C'
+ 'Calcium' 'Iron' 'Insulin Load' 'Deep Sleep' 'Active Calories']
+Daily   -----------------------------------------------
+Vitamin A             -0.148599
+Active Calories       -0.147208
+Sugar                 -0.104142
+Insulin Load          -0.087986
+Protein (g)           -0.086066
+Carbohydrates (g)     -0.059796
+Sodium (mg)           -0.057439
+Vitamin C             -0.053199
+Potassium             -0.017484
+Calories               0.014676
+Calcium                0.026063
+Iron                   0.033012
+Fat (g)                0.038896
+Fiber                  0.052588
+Cholesterol            0.082443
+Saturated Fat          0.090540
+Polyunsaturated Fat    0.102704
+Monounsaturated Fat    0.164790
+Deep Sleep             1.000000
+Name: Deep Sleep, dtype: float64
+Dinner -------------------------------------------
+Vitamin C             -0.273421
+Fiber                 -0.222613
+Vitamin A             -0.211908
+Protein (g)           -0.190621
+Active Calories       -0.169930
+Sugar                 -0.134785
+Potassium             -0.131943
+Insulin Load          -0.097817
+Carbohydrates (g)     -0.074530
+Calcium               -0.067989
+Iron                  -0.044315
+Calories              -0.020036
+Fat (g)                0.018128
+Sodium (mg)            0.069764
+Polyunsaturated Fat    0.084628
+Cholesterol            0.109816
+Saturated Fat          0.151712
+Monounsaturated Fat    0.200663
+Deep Sleep             1.000000
+Name: Deep Sleep, dtype: float64
+---------------------------------------------------------
