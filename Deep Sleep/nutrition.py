@@ -28,6 +28,8 @@ import pandas as pd
 
 # pull in data downloaded from MyFitnessPal.com
 # and manually added (Deep Sleep, Active Calories) from GarminConnect.com
+# calculated Insulin Load = carbs - fiber + (.56 * protein) in spreadsheet
+# calculated Insulinogenic calories  = Insulin Load * 4 cal/g  / total calories in spreadsheet
 data = pd.read_csv('/home/linda/Desktop/2018_nutrition.csv', parse_dates=True, index_col=0)
 print(data.columns.values)
 
